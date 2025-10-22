@@ -1,6 +1,6 @@
 jsonnet
 #torch>=1.7,!=1.12.0,<2.0
-git+https://github.com/huggingface/transformers.git@8637316e5e94ba0a2493e5df7846f2f23f46eaef
+#git+https://github.com/huggingface/transformers.git@8637316e5e94ba0a2493e5df7846f2f23f46eaef
 accelerate==0.15.0
 sentencepiece
 protobuf==3.19.0
@@ -9,7 +9,7 @@ scipy
 openai
 diskcache
 typing_extensions<4.6.0
-spacy==3.4.1 # Only for one of the experiments.
+#spacy==3.4.1 # Only for one of the experiments.
 rapidfuzz
 datasets
 pandas
@@ -30,3 +30,4 @@ black
 ruff
 
 jsonlines
+
